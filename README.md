@@ -3,20 +3,24 @@
 ## Instructions: 
 To access this program, clone this repository, cd into the selected folder, and run the Python script using these 3 commands below:
 
-``` git clone https://github.com/mattchooo/data-processing```
-```cd data-processing```
-```python3 dataprocessing.py```
+``` 
+git clone https://github.com/mattchooo/data-processing
+cd data-processing
+python3 dataprocessing.py
+```
 
 This will then direct you to the Data Processing CLI:
 
-```Welcome to the transaction database!```
-```-----------------------------------```
-```1: Begin Transaction```
-```2: Insert/Put New Value```
-```3: Get Value```
-```4: Commit Transaction```
-```5: Rollback```
-```6: Exit```
+```
+Welcome to the transaction database!
+-----------------------------------
+1: Begin Transaction
+2: Insert/Put New Value
+3: Get Value
+4: Commit Transaction
+5: Rollback
+6: Exit
+```
 
 ### Options:
 1. __Begin Transaction__ - Calls the begin_transaction() function and switches the database into transaction mode.
